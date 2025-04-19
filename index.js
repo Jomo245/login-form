@@ -4,7 +4,7 @@ const NewPassword=document.getElementById("NewPassword");
 const mySubmit=document.getElementById("mySubmit");
 
 
-mySubmit.onclick=function(){
+mySubmit.onclick=function(validate){
   
  // myheading=document.getElementById("myheading").textContent='ENTER YOUR LOGINS DETAILS';
   

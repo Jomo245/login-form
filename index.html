@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <title>Sign Form </title>
 </head>
@@ -10,23 +11,36 @@
   <div class="container">
   <div class="login-div">
     <form action="">
-      <h1 class="myh2" id="myheading">Login Details</h1>
-
-      <label for="username"></label>
+      <h1 class="myh2" id="myheading">Signup Details</h1>
+         <div class="mydivs">
+      <label for="username" class="mylabels"><i class="fa-solid fa-user"></i></label>
       <input type="text"id="username"placeholder="Username" class="inputarea"required><br><br>
+    </div>
 
-      <label for="myCurrentPassword"></label>
+    <div class="mydivs">
+      <label for="email"class="mylabels"><i class="fa-solid fa-envelope"></i></label>
+      <input type="email"id="email"placeholder="Enter Your Email" class="inputarea"required><br><br>
+     </div>
+
+
+     <div class="mydivs">
+      <label for="myCurrentPassword"class="mylabels"><i class="fa-solid fa-lock"></i></label>
       <input type="password"id="myCurrentPassword"class="inputarea"placeholder="Password"required><br><br>
+     </div>
 
-      <label for="NewPassword"></label>
+     <div class="mydivs">
+      <label for="NewPassword"class="mylabels"><i class="fa-solid fa-lock"></i></label>
       <input type="password"id="NewPassword"class="inputarea" placeholder="Confirm Password"><br><br>
+    </div>
 
-      <input type="submit"value="Login"id="mySubmit">
+      <input type="submit"value="Signup"id="mySubmit">
 
           <p class="myp">Already have an Account? <a href="#">Login</a></p>
       <script src="index.js"></script>
     </form>
   </div>
 </div>
+
+<script src="index.js"></script>
 </body>
 </html>
